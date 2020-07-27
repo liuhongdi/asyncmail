@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>您好，注册成功! 以下是您在本网站的注册信息：</h1>
+<table border="1">
+    <tr>
+        <td>用户名</td>
+        <td th:text="${username}">${username}</td>
+    </tr>
+    <tr>
+        <td>昵称</td>
+        <td th:text="${nickname}">${nickname}</td>
+    </tr>
+    <tr>
+        <td>ID</td>
+        <td th:text="${id}">${id}</td>
+    </tr>
+</table>
+<div style="color: #ff1a0e">本站网址:http://springio.com</div>
+</body>
+</html>
